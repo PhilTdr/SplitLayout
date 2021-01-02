@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SplitLayout">
+        <attr name="android:orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="minChildSize" format="dimension" />
+        <attr name="splitterSize" format="dimension" />
+        <attr name="splitterIsDraggable" format="boolean" />
+        <attr name="splitterPosition" format="dimension|float" />
+        <attr name="splitterTouchAreaTolerance" format="dimension" />
+        <attr name="splitterBackground" format="reference|color" />
+        <attr name="splitterDraggingBackground" format="reference|color" />
+    </declare-styleable>
+</resources>
