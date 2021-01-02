@@ -1,6 +1,20 @@
-Android Draggable
+Android Draggable SplitLayout
 ===
+[![](https://jitpack.io/v/PhilTdr/SplitLayout.svg)](https://jitpack.io/#PhilTdr/SplitLayout)
+
 An Android layout that splits the content between **two** child views. An optional draggable bar separates the child views, allowing the user to rearrange the space assigned to each view.
+
+Gradle Setup
+===
+``` gradle
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.PhilTdr:SplitLayout:v1.0.0'
+}
+```
 
 How to use
 ===
